@@ -21,16 +21,16 @@ function setup() {
 
 	dground=new Ground();
 	stones=new Stone(100,460,23);
-	mango1=new Mango(600,290,30);
-	mango2=new Mango(855,325,30);
-	mango3=new Mango(670,260,30);
-	mango4=new Mango(730,200,30);
-	mango5=new Mango(710,320,30);
-	mango6=new Mango(780,250,30);
-	mango7=new Mango(825,170,30);
-	mango8=new Mango(880,260,30);
-	mango9=new Mango(940,220,30);
-	mango10=new Mango(980,305,30);
+	mango1=new Mango(600,290,10);
+	mango2=new Mango(855,325,10);
+	mango3=new Mango(670,260,10);
+	mango4=new Mango(730,200,10);
+	mango5=new Mango(710,320,10);
+	mango6=new Mango(780,250,10);
+	mango7=new Mango(825,170,10);
+	mango8=new Mango(880,260,10);
+	mango9=new Mango(940,220,10);
+	mango10=new Mango(980,305,10);
 
 	attach =new Throw(stones.body,{x:100,y:465});
 
